@@ -1,0 +1,3 @@
+740  apt-get autoremove appmenu-gtk appmenu-gtk3 appmenu-qt
+741  apt-get install gwibber-service-*
+
