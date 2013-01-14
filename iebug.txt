@@ -1,0 +1,11 @@
+1.由于文档前面注释是因为注释最后为--!>应该为-->造成ie浏览出错。
+
+                                   2.当以字典形式定义字典时，最后一个后不需加‘，’否则ie会不识别。
+
+                                   3.$(document).ready(function(){a();function a(){alert('test')}});其中函数a的定义必须在$(document).ready(function(){});中定义。
+
+                                    4.一些由js事件调用的函数必须在单独的js块中定义不能在$(document).ready(function(){});中定义，否则不能识别函 数。
+
+                                    5.jquery必须加载一次。在整个页面中。否则会有错误。
+
+todo：
